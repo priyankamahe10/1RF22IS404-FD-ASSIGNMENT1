@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Hello World</p>
+    
+    {% for num, fact in fact_list %}
+     The Factorial of  {{ num }}! is {{ fact }}<br>
+   {% endfor %}
+</body>
+</html>
+
+<!-- for combining two list use result=list(zip(list1,list2))  -->
